@@ -7,7 +7,7 @@ class PepSpider(scrapy.Spider):
     allowed_domains = ['peps.python.org']
     start_urls = ['http://peps.python.org/']
 
-    def parse(self, response):
+    def pep_parse(self, response):
         for pep in response.css('section[id=numerical-index] tbody tr')[:5]:
             item = PepParseItem()
             item['number'] = pep.css('td + td a::text').get()
