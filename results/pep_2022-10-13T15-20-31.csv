@@ -1,0 +1,101 @@
+number,name,status
+1,PEP Purpose and Guidelines,Active
+5,Guidelines for Language Evolution,Active
+4,Deprecation of Standard Modules,Active
+2,Procedure for Adding New Modules,Active
+3,Guidelines for Handling Bug Reports,Withdrawn
+9,Sample Plaintext PEP Template,Withdrawn
+6,Bug Fix Releases,Active
+11,CPython platform support,Active
+10,Voting Guidelines,Active
+7,Style Guide for C Code,Active
+101,Doing Python Releases 101,Active
+12,Sample reStructuredText PEP Template,Active
+100,Python Unicode Integration,Final
+13,Python Language Governance,Active
+8,Style Guide for Python Code,Active
+20,The Zen of Python,Active
+42,Feature Requests,Withdrawn
+214,Extended Print Statement,Final
+215,String Interpolation,Superseded
+216,Docstring Format,Rejected
+217,Display Hook for Interactive Use,Final
+218,Adding a Built-In Set Object Type,Final
+213,Attribute Access Handlers,Deferred
+209,Multi-dimensional Arrays,Withdrawn
+210,Decoupling the Interpreter Loop,Rejected
+211,Adding A New Outer Product Operator,Rejected
+212,Loop Counter Iteration,Rejected
+219,Stackless Python,Deferred
+220,"Coroutines, Generators, Continuations",Rejected
+208,Reworking the Coercion Model,Final
+221,Import As,Final
+222,Web Library Enhancements,Deferred
+223,Change the Meaning of x Escapes,Final
+232,Function Attributes,Final
+233,Python Online Help,Deferred
+235,Import on Case-Insensitive Platforms,Final
+234,Iterators,Final
+236,Back to the __future__,Final
+238,Changing the Division Operator,Final
+237,Unifying Long Integers and Integers,Final
+240,Adding a Rational Literal to Python,Rejected
+239,Adding a Rational Type to Python,Rejected
+241,Metadata for Python Software Packages,Superseded
+242,Numeric Kinds,Rejected
+243,Module Repository Upload Mechanism,Withdrawn
+231,__findattr__(),Rejected
+244,The directive statement,Rejected
+230,Warning Framework,Final
+245,Python Interface Syntax,Rejected
+248,Python Database API Specification v1.0,Final
+250,Using site-packages on Windows,Final
+249,Python Database API Specification v2.0,Final
+251,Python 2.2 Release Schedule,Final
+253,Subtyping Built-in Types,Final
+254,Making Classes Look More Like Types,Rejected
+255,Simple Generators,Final
+229,Using Distutils to Build Python,Final
+247,API for Cryptographic Hash Functions,Final
+246,Object Adaptation,Rejected
+252,Making Types Look More Like Classes,Final
+256,Docstring Processing System Framework,Rejected
+227,Statically Nested Scopes,Final
+228,Reworking Python’s Numeric Model,Withdrawn
+257,Docstring Conventions,Active
+259,Omit printing newline after newline,Rejected
+263,Defining Python Source Code Encodings,Final
+262,A Database of Installed Python Packages,Rejected
+264,Future statements in simulated shells,Final
+265,Sorting Dictionaries by Value,Rejected
+260,Simplify xrange(),Final
+261,Support for “wide” Unicode characters,Final
+266,Optimizing Global Variable/Attribute Access,Withdrawn
+224,Attribute Docstrings,Rejected
+225,Elementwise/Objectwise Operators,Rejected
+226,Python 2.1 Release Schedule,Final
+258,Docutils Design Specification,Rejected
+267,Optimized Access to Module Namespaces,Deferred
+206,Python Advanced Library,Withdrawn
+207,Rich Comparisons,Final
+268,Extended HTTP functionality and WebDAV,Rejected
+269,Pgen Module for Python,Deferred
+278,Universal Newline Support,Final
+276,Simple Iterator for ints,Rejected
+277,Unicode file name support for Windows NT,Final
+279,The enumerate() built-in function,Final
+272,API for Block Encryption Algorithms v1.0,Final
+273,Import Modules from Zip Archives,Final
+274,Dict Comprehensions,Final
+275,Switching on Multiple Values,Rejected
+204,Range Literals,Rejected
+205,Weak References,Final
+270,uniq method for list objects,Rejected
+271,Prefixing sys.path by command line option,Rejected
+201,Lockstep Iteration,Final
+202,List Comprehensions,Final
+203,Augmented Assignments,Final
+200,Python 2.0 Release Schedule,Final
+160,Python 1.6 Release Schedule,Final
+102,Doing Python Micro Releases,Superseded
+103,Collecting information about git,Withdrawn
