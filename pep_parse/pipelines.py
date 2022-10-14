@@ -7,6 +7,7 @@ from pep_parse.settings import BASE_DIR, DATETIME_FORMAT
 
 class PepParsePipeline:
     statuses = []
+    rows_statuses = []
 
     def open_spider(self, spider):
         results_dir = BASE_DIR / 'results'
@@ -23,12 +24,15 @@ class PepParsePipeline:
         return item
 
     def close_spider(self, spider):
+        for status, amount in self.status_counter.items():
+            self.rows_statuses.append(
+                {'Статус': f'{status}', 'Количество': f'{amount}'}
+            )
+        self.rows_statuses.append(
+            {'Статус': 'Total', 'Количество': f'{self.total}'}
+        )
         with open(self.file_path, 'w', encoding='utf-8', newline='') as file:
             field_name = ['Статус', 'Количество']
             writer = csv.DictWriter(file, fieldnames=field_name)
             writer.writeheader()
-            for status, amount in self.status_counter.items():
-                writer.writerow(
-                    {'Статус': f'{status}', 'Количество': f'{amount}'}
-                )
-            writer.writerow({'Статус': 'Total', 'Количество': f'{self.total}'})
+            writer.writerows(self.rows_statuses)
